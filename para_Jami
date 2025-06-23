@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    body {
+      background: linear-gradient(to right, #0f9dc0, #f35b04);
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding: 50px;
+      color: #333;
+    }
+
+    .card {
+      background-color: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+      max-width: 700px;
+      margin: auto;
+    }
+
+    h1 {
+      color: #e91e63;
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.3em;
+      line-height: 1.6;
+    }
+
+    .signature {
+      margin-top: 30px;
+      font-style: italic;
+      color: #555;
+    }
+
+    img {
+      max-width: 100%;
+      border-radius: 15px;
+      margin-top: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    audio {
+      margin-top: 30px;
+    }
+
+    .imagen {
+  width: 200px;
+}
+
+     <div class="card">
+    <h1>Para ti 💖</h1>
+    <p>
+      Esta dedicatoria es solo para recordarte lo especial que eres.<br>
+      Gracias por estar en mi vida y hacer mis días más felices.<br>
+      Nunca olvides lo mucho que significas para mí.
+    </p>
+  <img class="imagen" src="img/f05d9e01-84b4-48ee-af49-fdc43cf51f90.jpeg" alt="Goku and Milk">
+    <p class="signature">Con cariño, tu persona especial 🌹</p>
+    <audio controls autoplay loop>
+     <source src="MI CORAZÓN ENCANTADO - Dragon ball GT piano _ Fernanfloo.mp4" type="audio/mpeg">
+    </audio>
+  </div>
+</body>
+</html>
